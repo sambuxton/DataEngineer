@@ -1,4 +1,4 @@
-# DataEngineer
+# DataEngineer POS Tagger
 A collection of small projects from my internship as a data engineer. All sensitive information and specific links have been removed.
 
 The ARIMA, Regression, and Anomaly detection files: Project that connects the ML Studio Service with blob storage. Allows user to either manually upload a file to blob storage OR name a local file which is then uploaded to blob storage and output the results of the ML analysis to blob storage. The ARIMA file grabs a file from the blob, trains the ARIMA model on the number of tickets per month, and then displays the difference between predicted and actual number of tickets.
